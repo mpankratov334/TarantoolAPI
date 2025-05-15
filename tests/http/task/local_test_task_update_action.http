@@ -1,0 +1,9 @@
+POST http://localhost:80//api/v1/task/update HTTP/1.1
+Content-Type: application/json
+
+{
+  "field": 4,
+  "value": [1],
+  "task_id": 2,
+  "event_id": 2
+}

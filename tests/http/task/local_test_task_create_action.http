@@ -1,0 +1,10 @@
+POST http://localhost:80//api/v1/task/create HTTP/1.1
+Content-Type: application/json
+
+{
+  "event_id": 2,
+  "name": "strim_papani",
+  "type": "party",
+  "info": "information eprst",
+  "users_to_see": [1, 2, 3]
+}

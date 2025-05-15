@@ -1,0 +1,8 @@
+POST http://localhost:80//api/v1/user/update HTTP/1.1
+Content-Type: application/json
+
+{
+  "user_id": 2,
+  "field": 2,
+  "value": ["setting1", "setting2"]
+}
